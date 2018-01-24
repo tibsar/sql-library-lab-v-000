@@ -6,3 +6,5 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Character One", "motto one", "cylon", 2, 2), (6, "Character Two", "motto two", "human", 2, 2), (7, "Character Three", "motto three", "cylon", 2, 2), (8, "Character Four", "motto four", "cylon", 2, 2);
 
 INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
+
+INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
