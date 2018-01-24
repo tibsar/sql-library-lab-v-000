@@ -1,3 +1,4 @@
 CREATE TABLE series (
-  title STRING
+  title STRING, 
+  author_id INTEGER
 );
