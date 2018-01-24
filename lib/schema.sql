@@ -11,5 +11,5 @@ CREATE TABLE subgenres(
 );
 
 CREATE TABLE authors (
-  
+  name TEXT
 ); 
