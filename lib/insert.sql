@@ -9,10 +9,4 @@ INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
 
 INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
 
-INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2)
-
-CREATE TABLE character_books (
-  id INTEGER PRIMARY KEY,
-  book_id INTEGER,
-  character_id INTEGER
-);
+INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2); 
