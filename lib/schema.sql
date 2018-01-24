@@ -1,3 +1,3 @@
-CREATE_TABLE series (
+CREATE TABLE series (
   title STRING
-); 
+);
